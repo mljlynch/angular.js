@@ -63,7 +63,8 @@ npm install
   **Warning:** If a new version of AngularJS has been released since you last ran `npm install`, then
   you may have a problem with the `bower install` due to a conflict between the versions of
   angular.js that need to be installed. If you run into this issue, simply delete your
-  `app/bower_components` directory and then run `npm install`.
+  `app/bower_components` directory and then run `npm install`. In some cases, npm will cache the previous 
+  installs. Restarting your computer will fix this.
 </div>
 
 
